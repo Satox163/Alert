@@ -6,7 +6,8 @@ ____
 
 # Installation
 
-Just drag and drop the BiserAlert.swift file to your project
+1. Just drag and drop the BiserAlert.swift file to your project
+2. Download Project (Green Button 'Code')
 
 ____
 
