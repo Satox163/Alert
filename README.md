@@ -105,4 +105,10 @@ ____
 ____
 
 
+# P.S.:
 
+In no way do I pretend to be a super-duper developer, here is just a collection of useful information for me and my friends, if it was useful to you too - its good
+
+toxic seniors get out pls
+ 
+____
