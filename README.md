@@ -24,5 +24,7 @@ ____
             .present()
             
 ```
+<p>
           ![tekst alternatywny](https://upload.wikimedia.org/wikipedia/commons/b/b4/HarlowShapley-crop.jpg)
     
+</p>
