@@ -24,7 +24,8 @@ ____
             .present()
             
 ```
-<h2>
+
           ![tekst alternatywny](https://upload.wikimedia.org/wikipedia/commons/b/b4/HarlowShapley-crop.jpg?raw=true)
     
-</h2>
+    ![Algorithm schema](./Assets.xcassets/scr1.jpg)
+
