@@ -14,6 +14,19 @@ ____
 # Examples
 
     
+```swift
+ // Simple Alert
+ 
+        Alert(.alert)
+            .title("Title")
+            .message("Message")
+            .ok("OK", action: { _ in print("ok tapped") })
+            .cancel("Cancel")
+            .present()
+            
+```
+
   
     ![ewfwef](scr1.png)
 
+![stack Overflow](http://lmsotfy.com/so.png)
