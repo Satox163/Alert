@@ -12,7 +12,7 @@ ____
 
 # Examples
 
-```
+```swift
  // Simple Alert
  
         Alert(.alert)
