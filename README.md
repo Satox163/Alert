@@ -26,7 +26,6 @@ ____
 ```
 
     
-    ![Algorithm schema](Alert/BiserAlert/Assets.xcassets/scr1.jpg)
-    
-    ![](/BiserAlert/Assets.xcassets/scr1.jpg)
+  
+    ![](BiserAlert/Assets.xcassets/scr1.jpg)
 
