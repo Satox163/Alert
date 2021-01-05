@@ -25,7 +25,6 @@ ____
             
 ```
 
-          ![tekst alternatywny](https://upload.wikimedia.org/wikipedia/commons/b/b4/HarlowShapley-crop.jpg?raw=true)
     
-    ![Algorithm schema](./Assets.xcassets/scr1.jpg)
+    ![Algorithm schema](Alert/BiserAlert/Assets.xcassets/scr1.jpg)
 
