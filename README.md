@@ -28,5 +28,5 @@ ____
     
     ![Algorithm schema](Alert/BiserAlert/Assets.xcassets/scr1.jpg)
     
-    ![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg)
+    ![](/BiserAlert/Assets.xcassets/scr1.jpg)
 
