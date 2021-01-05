@@ -27,5 +27,5 @@ ____
 
     
   
-    ![](/Assets.xcassets/scr1.jpg)
+    ![](Assets.xcassets/scr1.jpg)
 
