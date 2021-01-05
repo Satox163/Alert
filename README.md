@@ -28,6 +28,25 @@ ____
             .present()
 ```
 
+____
+
+
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg" width="300" height="650">
+
+    
+```swift
+           Alert(.actionSheet)
+            .ok("Gallery", [.image(.SFSymbol("rectangle.stack.fill", size: 18)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
+            .ok("Camera", [.image(.SFSymbol("bolt.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
+            .ok("Document", [.image(.SFSymbol("doc.text.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
+            .ok("Location", [.image(.SFSymbol("location.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
+            .ok("Contact", [.image(.SFSymbol("person.fill", size: 22)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)], action: { _ in
+                print("Contact Tapped")
+            })
+            .cancel("Cancel")
+            .present()
+             
+```
 
 ____
 
@@ -49,26 +68,6 @@ ____
             .bottomText("Bottom Text For Example", textColor: .black, backgroundColor: .clear)
             .present()
 ```
-
-____
-
-<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg" width="300" height="650">
-
-    
-```swift
-           Alert(.actionSheet)
-            .ok("Gallery", [.image(.SFSymbol("rectangle.stack.fill", size: 18)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
-            .ok("Camera", [.image(.SFSymbol("bolt.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
-            .ok("Document", [.image(.SFSymbol("doc.text.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
-            .ok("Location", [.image(.SFSymbol("location.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)])
-            .ok("Contact", [.image(.SFSymbol("person.fill", size: 22)), .alignment(.left), .titleColor(.black), .imageColor(.systemBlue)], action: { _ in
-                print("Contact Tapped")
-            })
-            .cancel("Cancel")
-            .present()
-             
-```
-
 
 ____
 
