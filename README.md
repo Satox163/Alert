@@ -27,5 +27,5 @@ ____
 
     
   
-    ![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg?raw=true)
+    ![](scr1.jpg)
 
