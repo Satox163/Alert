@@ -52,6 +52,8 @@ ____
 
 ____
 
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg" width="300" height="650">
+
     
 ```swift
            Alert(.actionSheet)
@@ -67,9 +69,12 @@ ____
              
 ```
 
-<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg" width="300" height="650">
 
 ____
+
+
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr4.jpg" width="300" height="650">
+
 
 ```swift
              Alert(.alert)
@@ -89,9 +94,11 @@ ____
              
 ```
 
-<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr4.jpg" width="300" height="650">
 
 ____
+
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr6.jpg" width="300" height="650">
+
 
 ```swift
              Alert(.alert)
@@ -105,7 +112,6 @@ ____
              
 ```
 
-<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr6.jpg" width="300" height="650">
 
 ____
 
