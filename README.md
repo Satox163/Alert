@@ -60,3 +60,24 @@ ____
 
 ![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg)
 
+
+```swift
+             Alert(.alert)
+            .title("Dismiss after 5 sec")
+            .ok("OK", [.alignment(.right)])
+            .ok("OK", [.alignment(.right)])
+            .ok("OK", [.alignment(.right)])
+            .ok("OK2", [.alignment(.left)])
+            .ok("OK2", [.alignment(.left)])
+            .ok("OK2", [.alignment(.left)])
+            .destructive("Kangi")
+            .cancel("Cancel")
+            .bottomText("Bottom Text For Example", textColor: .black, backgroundColor: .red)
+            .present()
+            .vibro(.warning)
+            .dissmiss(5)
+             
+```
+
+![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr4.jpg)
+
