@@ -25,6 +25,6 @@ ____
             
 ```
 <h2>
-          ![tekst alternatywny](https://upload.wikimedia.org/wikipedia/commons/b/b4/HarlowShapley-crop.jpg)
+          ![tekst alternatywny](https://upload.wikimedia.org/wikipedia/commons/b/b4/HarlowShapley-crop.jpg?raw=true)
     
 </h2>
