@@ -16,11 +16,14 @@ ____
     
 ```swift
          Alert(.actionSheet)
-            .ok(" Gallery", [.image(.SFSymbol("rectangle.stack.fill", size: 18)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
-            .ok("  Camera", [.image(.SFSymbol("bolt.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
-            .ok("  Document", [.image(.SFSymbol("doc.text.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
-            .ok("  Location", [.image(.SFSymbol("location.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
-            .ok("  Contact", [.image(.SFSymbol("person.fill", size: 22)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)], action: { _ in
+            .ok("Gallery", [.image(.SFSymbol("rectangle.stack.fill", size: 18)), 
+            .alignment(.left), 
+            .titleColor(.black), 
+            .imageColor(UIColor.systemBlue)])
+            .ok("Camera", [.image(.SFSymbol("bolt.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
+            .ok("Document", [.image(.SFSymbol("doc.text.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
+            .ok("Location", [.image(.SFSymbol("location.fill", size: 20)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)])
+            .ok("Contact", [.image(.SFSymbol("person.fill", size: 22)), .alignment(.left), .titleColor(.black), .imageColor(UIColor.systemBlue)], action: { _ in
                 print("Contact Tapped")
             })
             .cancel("Cancel")
