@@ -13,6 +13,7 @@ ____
 
 # Examples
 
+____
 
 ```swift
      Alert(.alert)
@@ -23,6 +24,8 @@ ____
             .present()
 ```
 <img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr5.jpg" width="300" height="650">
+
+____
 
 
 ```swift
@@ -42,6 +45,8 @@ ____
 ```
 <img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr2.jpg" width="300" height="650">
 
+____
+
     
 ```swift
            Alert(.actionSheet)
@@ -59,7 +64,7 @@ ____
 
 <img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg" width="300" height="650">
 
-
+____
 
 ```swift
              Alert(.alert)
@@ -80,5 +85,24 @@ ____
 ```
 
 <img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr4.jpg" width="300" height="650">
+
+____
+
+```swift
+             Alert(.alert)
+            .title("Alert")
+            .message("With Image")
+            .ok("OK", [.image(.SFSymbol("heart.fill", size: 20))], action: { _ in
+                print("ok tapped")
+            })
+            .cancel("Cancel", [.image(.SFSymbol("suit.spade.fill", size: 20)),.titleColor(.red)])
+            .present()
+             
+```
+
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr6.jpg" width="300" height="650">
+
+____
+
 
 
