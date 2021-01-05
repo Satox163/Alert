@@ -27,5 +27,5 @@ ____
 
     
   
-    ![](./scr1.jpg)
+    ![](https://raw.githubusercontent.com/dimabiserov/Alert/master/BiserAlert/Assets.xcassets/scr1.jpg?token=AFQDCHNGMSVHYXYB3YXOAGK76PYZU)
 
