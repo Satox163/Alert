@@ -15,6 +15,10 @@ ____
 
 ____
 
+
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr5.jpg" width="300" height="650">
+
+
 ```swift
      Alert(.alert)
             .title("Title")
@@ -23,9 +27,11 @@ ____
             .cancel("Cancel")
             .present()
 ```
-<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr5.jpg" width="300" height="650">
+
 
 ____
+
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr2.jpg" width="300" height="650">
 
 
 ```swift
@@ -43,7 +49,6 @@ ____
             .bottomText("Bottom Text For Example", textColor: .black, backgroundColor: .clear)
             .present()
 ```
-<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr2.jpg" width="300" height="650">
 
 ____
 
@@ -105,7 +110,7 @@ ____
 ____
 
 
-# P.S.:
+# PS:
 
 In no way do I pretend to be a super-duper developer, here is just a collection of useful information for me and my friends, if it was useful to you too - its good
 
