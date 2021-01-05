@@ -15,17 +15,34 @@ ____
 
 
 ```swift
-      Alert(.alert)
-            .title("Alert")
-            .message("With Image")
-            .ok("OK", [.image(.SFSymbol("heart.fill", size: 20))], action: { _ in
-                print("ok tapped")
-            })
-            .cancel("Cancel", [.image(.SFSymbol("suit.spade.fill", size: 20)),.titleColor(.red)])
+     Alert(.alert)
+            .title("Title")
+            .message("Message")
+            .ok("OK", action: { _ in print("ok tapped") })
+            .cancel("Cancel")
             .present()
 ```
 
 ![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr5.jpg)
+
+
+```swift
+          Alert(.alert)
+            .attributedMessage("Enter Password", textColor: .white, backgroundColor: .black, font: UIFont.systemFont(ofSize: 20, weight: .medium))
+            .textField {
+                $0.placeholder = "I wait..."
+                $0.textColor = .red
+                $0.isSecureTextEntry = true
+            }
+            .ok("OK", action: { _ in
+                print("ok tapped", AlertText)
+            })
+            .cancel("Cancel")
+            .bottomText("Bottom Text For Example", textColor: .black, backgroundColor: .clear)
+            .present()
+```
+
+![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr2.jpg)
     
 ```swift
            Alert(.actionSheet)
