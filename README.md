@@ -27,5 +27,5 @@ ____
 ```
 
   
-   ![ewfwef](/Assets.xcassets/scr1.jpg)
+   ![ewfwef](Assets.xcassets/scr1.jpg)
 
