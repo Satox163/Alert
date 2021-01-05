@@ -27,5 +27,5 @@ ____
 
     
   
-    ![](https://raw.githubusercontent.com/dimabiserov/Alert/master/BiserAlert/Assets.xcassets/scr1.jpg?token=AFQDCHNGMSVHYXYB3YXOAGK76PYZU)
+    ![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg?raw=true)
 
