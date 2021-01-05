@@ -22,8 +22,7 @@ ____
             .cancel("Cancel")
             .present()
 ```
-
-![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr5.jpg)
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr5.jpg" width="300" height="650">
 
 
 ```swift
@@ -41,8 +40,8 @@ ____
             .bottomText("Bottom Text For Example", textColor: .black, backgroundColor: .clear)
             .present()
 ```
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr2.jpg" width="300" height="650">
 
-![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr2.jpg)
     
 ```swift
            Alert(.actionSheet)
@@ -58,7 +57,8 @@ ____
              
 ```
 
-![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg)
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr1.jpg" width="300" height="650">
+
 
 
 ```swift
@@ -79,5 +79,6 @@ ____
              
 ```
 
-![](https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr4.jpg)
+<img src="https://github.com/dimabiserov/Alert/blob/master/BiserAlert/Assets.xcassets/scr4.jpg" width="300" height="650">
+
 
