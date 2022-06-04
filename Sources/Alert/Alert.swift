@@ -102,7 +102,7 @@ extension Alert {
     @discardableResult
     public func dissmiss(
         _ seconds: TimeInterval,
-        completion: @escaping () -> Void
+        completion: @escaping () -> Void = {}
     ) -> Self {
         DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
             self.alert.dismiss(animated: true, completion: completion)
